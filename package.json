@@ -4,7 +4,7 @@
   "description": "essai api",
   "main": "src/controller/app.js",
   "scripts": {
-    "dev": "node server.js"
+    "dev": "node --watch server.js"
   },
   "keywords": [
     ""
