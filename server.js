@@ -1,4 +1,4 @@
-import app from "./app.js";
+import app from "./src/controller/app.js";
 
 
 app.listen(3001, () => {

@@ -2,9 +2,9 @@
   "name": "monapi",
   "version": "1.0.0",
   "description": "essai api",
-  "main": "app.js",
+  "main": "src/controller/app.js",
   "scripts": {
-    "dev": "server.js"
+    "dev": "node server.js"
   },
   "keywords": [
     ""

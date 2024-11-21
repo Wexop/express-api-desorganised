@@ -1,12 +1,7 @@
 import express from 'express';
-import sqlite3 from 'sqlite3';
+import db from "../database/database.js";
 
-const db = new sqlite3.Database('./products.db', (err) => {
-    if (err) {
-        console.error(err.message);
-    }
-    console.log('Connected to the products database.');
-});
+
 
 
 const app = express()
